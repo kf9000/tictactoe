@@ -6,7 +6,7 @@ from threading import Thread
 #creating variables
 turn = 1
 winner = 0
-b=["xd lol easter egg","","","","","","","","",""]
+b=["xd lol easter egg!","","","","","","","","",""]
 
 
 
