@@ -30,9 +30,9 @@ def restartall():
     vmessage.config(text="")
     counter.config(text="Player "+ str(turn) + "'s turn")
 
-
+#Use your own path and sound for victory fanfare
 def victorymusic():
-    playsound("https://cdn.discordapp.com/attachments/574256956341223475/1145137058059403334/success-1-6297.mp3")
+    playsound(r"\Path\To\Your\success.mp3")
 
 #victory condition check
 def victory():
@@ -224,7 +224,7 @@ def b9textchange():
             victory()
         button9.config(text=b[9])
 
-#creating window ripped straight out of google rip bozo
+#creating window
 window=tkinter.Tk()
 window.title("Tic Tac Toe")
 window.resizable(width=False, height=False)
